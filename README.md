@@ -8,9 +8,9 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![No API Key](https://img.shields.io/badge/API%20Key-Not%20Required-34d399?style=flat)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-[Live Demo](#) · [Report Bug](https://github.com/KrishnaSanjay21/datalens/issues) · [LinkedIn](https://www.linkedin.com/in/krishna-sanjay-vaddi)
+
+[Live Demo](https://datalens-x4seve4uqecrujmqwmzoth.streamlit.app/) · [Report Bug](https://github.com/KrishnaSanjay21/datalens/issues) · [LinkedIn](https://www.linkedin.com/in/krishna-sanjay-vaddi)
 
 </div>
 
