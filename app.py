@@ -384,7 +384,9 @@ def generate_insights(df):
     # Correlation insight
     if len(numeric) >= 2:
         corr_matrix = df[numeric].corr().abs()
-        np.fill_diagonal(corr_matrix.values, 0)
+        corr_vals = corr_matrix.values.copy()
+        np.fill_diagonal(corr_vals, 0)
+        corr_matrix = pd.DataFrame(corr_vals, index=corr_matrix.index, columns=corr_matrix.columns)
         max_corr = corr_matrix.max().max()
         if max_corr > 0.8:
             idx = corr_matrix.stack().idxmax()
